@@ -1,0 +1,14 @@
+{
+    "name": "air-design-system",
+    "version": "1.0.0",
+    "dependencies": {
+    },
+    "devDependencies": {
+    },
+    "scripts": {
+        "setup": "./setup/setup.sh",
+        "storybook-react": "cd storybook/React && npm run storybook",
+        "storybook-react-native-packager": "cd storybook/ReactNative && npm start",
+        "storybook-react-native-android": "cd storybook/ReactNative && npm run android"
+    }
+}
